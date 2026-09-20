@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allen V. De Lemos — Front-End Developer</title>
+  <meta name="description" content="Portfolio of Allen V. De Lemos, front-end developer and aspiring college student skilled in HTML, CSS, JavaScript, React, PHP and MySQL." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="nav-logo">My Portfolio</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Allen V. De Lemos</h1>
+        <p class="hero-role">Front-End Developer <span class="dot">&bull;</span> Aspiring College Student</p>
+        <p class="hero-pitch">
+          I design and build clean, responsive websites that turn ideas into polished
+          digital experiences — from pixel-perfect front ends to working
+          PHP &amp; MySQL back ends.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/alleeeennnn" target="_blank" rel="noopener" aria-label="GitHub profile">
+            <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allendelemos69@gmail.com" target="_blank" rel="noopener" aria-label="Email me via Gmail" title="Email me via Gmail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual" id="hero-canvas" aria-hidden="true"></div>
+    </div>
+  </header>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="eyebrow reveal">About Me</p>
+      <h2 class="section-title reveal">A student who builds real things</h2>
+      <p class="section-sub reveal">Design-minded, detail-obsessed, and always learning.</p>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm <strong>Allen V. De Lemos</strong>, an aspiring college student and
+            front-end developer who loves turning ideas into clean, functional websites.
+            What started as curiosity about how the web works has grown into a passion
+            for building interfaces that people genuinely enjoy using.
+          </p>
+          <p>
+            On the front end, I work with <strong>HTML, CSS, JavaScript, React, and
+            Tailwind CSS</strong>, designing in <strong>Figma</strong> and managing my
+            code with <strong>Git &amp; GitHub</strong>. On the back end, I build with
+            <strong>PHP and MySQL</strong> — so I can take a project from a static design
+            all the way to a working, data-driven application.
+          </p>
+          <p>
+            Alongside my projects, I also do <strong>laboratory activities</strong> and
+            hands-on school work — building small programs, practicing databases, and
+            completing tech exercises — which keeps my fundamentals sharp every semester.
+          </p>
+          <p>
+            I'm currently open to <strong>freelance and entry-level opportunities</strong>.
+            If you need someone reliable who cares about the details, let's talk.
+          </p>
+        </div>
+        <div class="stats">
+          <div class="stat-card reveal">
+            <div class="stat-num">2</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-card reveal reveal-delay-1">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">Technologies Used</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-num">2</div>
+            <div class="stat-label">Years of Learning</div>
+          </div>
+          <div class="stat-card reveal reveal-delay-1">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Commitment</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section alt" id="skills">
+    <div class="container">
+      <p class="eyebrow reveal">My Skills</p>
+      <h2 class="section-title reveal">Skills &amp; Technologies</h2>
+      <p class="section-sub reveal">The tools I use to bring projects to life — from design to deployment.</p>
+      <div class="skills-groups">
+        <div class="skills-group">
+          <h3 class="skills-group-label reveal">Front-End</h3>
+          <div class="skills-grid">
+            <div class="skill-card reveal">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 logo" loading="lazy" />
+              <span>HTML5</span>
+            </div>
+            <div class="skill-card reveal">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 logo" loading="lazy" />
+              <span>CSS3</span>
+            </div>
+            <div class="skill-card reveal">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" loading="lazy" />
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-card reveal">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React logo" loading="lazy" />
+              <span>React</span>
+            </div>
+            <div class="skill-card reveal">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS logo" loading="lazy" />
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="skill-card reveal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+                <rect x="2" y="4" width="15" height="11" rx="1.5"/>
+                <path d="M7 19h5M9.5 15v4"/>
+                <rect x="16" y="10" width="6" height="10" rx="1.5" fill="#ffffff"/>
+                <path d="M18.5 17.5h1"/>
+              </svg>
+              <span>Responsive Design</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-row">
+          <div class="skills-group">
+            <h3 class="skills-group-label reveal">Back-End</h3>
+            <div class="skills-grid">
+              <div class="skill-card reveal">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP logo" loading="lazy" />
+                <span>PHP</span>
+              </div>
+              <div class="skill-card reveal">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL logo" loading="lazy" />
+                <span>MySQL</span>
+              </div>
+            </div>
+          </div>
+          <div class="skills-group">
+            <h3 class="skills-group-label reveal">Tools &amp; Design</h3>
+            <div class="skills-grid">
+              <div class="skill-card reveal">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma logo" loading="lazy" />
+                <span>Figma</span>
+              </div>
+              <div class="skill-card reveal">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo" loading="lazy" />
+                <span>Git / GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE & EDUCATION ===== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="eyebrow reveal">My Journey</p>
+      <h2 class="section-title reveal">Experience &amp; Education</h2>
+      <p class="section-sub reveal">Where I've learned, built, and grown.</p>
+      <div class="journey-grid">
+        <div class="journey-col">
+          <h3 class="journey-heading reveal">Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <span class="timeline-date">2026</span>
+              <h4>Full Stack Developer — SkillLink</h4>
+              <p class="timeline-place">Lyceum of Alabang</p>
+              <p class="timeline-desc">
+                Designed and built SkillLink end to end — a campus skill-exchange
+                platform with a PHP &amp; MySQL back end (authentication, requests,
+                and an admin dashboard) and a polished front-end interface.
+              </p>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <span class="timeline-date">2026</span>
+              <h4>Front End Developer — ACP Printing Services</h4>
+              <p class="timeline-place">Lyceum of Alabang</p>
+              <p class="timeline-desc">
+                Built the ACP Printing Services website — a responsive layout with
+                a service catalog, portfolio gallery, and an easy order flow.
+              </p>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <span class="timeline-date">2023</span>
+              <h4>Hello World — Where It All Started</h4>
+              <p class="timeline-place">Started learning programming languages</p>
+              <p class="timeline-desc">
+                Wrote my first lines of code and discovered a love for building
+                things for the web.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="journey-col">
+          <h3 class="journey-heading reveal">Education</h3>
+          <div class="edu-cards">
+            <div class="edu-card reveal">
+              <span class="timeline-date">2025 — Present</span>
+              <h4>BS Information Technology</h4>
+              <p>Lyceum of Alabang</p>
+            </div>
+            <div class="edu-card reveal reveal-delay-1">
+              <span class="timeline-date">2023 — 2025</span>
+              <h4>ICT — Senior High School</h4>
+              <p>Lyceum of Alabang</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section alt" id="projects">
+    <div class="container">
+      <p class="eyebrow reveal">Portfolio</p>
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <p class="section-sub reveal">A selection of work showcasing front-end craft and full-stack capability.</p>
+      <!-- Real projects: ACP Printing Services & SkillLink.
+           To add live links later, insert a .project-links block like the one
+           used previously (Live Demo / Source Code anchors). -->
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-logo-band band-acp">
+            <img src="assets/acp-logo.png" alt="ACP Printing Services logo" loading="lazy" />
+          </div>
+          <img class="project-img" src="assets/project-acp.svg" alt="ACP Printing Services website mockup" loading="lazy" />
+          <div class="project-body">
+            <h3>ACP Printing Services</h3>
+            <p>
+              A responsive website for a local print shop — service catalog,
+              portfolio gallery, and an easy order flow, built with clean
+              HTML, CSS, and JavaScript.
+            </p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay-1">
+          <div class="project-logo-band band-skilllink">
+            <img src="assets/skilllink-logo.svg" alt="SkillLink logo" loading="lazy" />
+          </div>
+          <img class="project-img" src="assets/project-skilllink.svg" alt="SkillLink campus skill-exchange platform mockup" loading="lazy" />
+          <div class="project-body">
+            <h3>SkillLink</h3>
+            <p>
+              A full-stack campus skill-exchange platform where students offer
+              skills, request help, and match with each other — featuring
+              authentication, an admin dashboard, and a MySQL database.
+            </p>
+            <div class="tags">
+              <span class="tag">PHP</span><span class="tag">MySQL</span>
+              <span class="tag">JavaScript</span><span class="tag">HTML/CSS</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="eyebrow reveal">Get In Touch</p>
+      <h2 class="section-title reveal">Let's work together</h2>
+      <p class="section-sub reveal">Have a project in mind or a role to fill? My inbox is always open.</p>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allendelemos69@gmail.com" target="_blank" rel="noopener">allendelemos69@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            </div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/alleeeennnn" target="_blank" rel="noopener">github.com/alleeeennnn</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+            </div>
+            <div>
+              <h4>Availability</h4>
+              <p>Open to freelance &amp; entry-level front-end work</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal reveal-delay-1" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Allen V. De Lemos. All Rights Reserved.</p>
+      <div class="footer-social">
+        <a href="https://github.com/alleeeennnn" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allendelemos69@gmail.com" target="_blank" rel="noopener" aria-label="Email me via Gmail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/three-scene.js"></script>
+</body>
+</html>
+
